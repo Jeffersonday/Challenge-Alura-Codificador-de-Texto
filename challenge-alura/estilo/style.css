@@ -151,7 +151,145 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 1200px) {
+
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    background: transparent;
+    padding: 0 13% 0 0;
+    width: auto;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0 0 4%;
     
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 1.25rem;
+    color: var(--cor-titulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+textarea::placeholder {
+    color: #000000;
+}
+
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border:  #000000;
+    border-radius: 20px;
+    width: 450px;
+    height: 400px;
+    margin-right: 3%;
+ 
+}
+
+#output h2{
+    text-align: center;
+    font-size: 1.563rem;
+    color: var(--cor-titulo);
+}
+
+#output span{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#output img{
+    max-width:300px;
+    max-height:300px;
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+    padding: 7%;
+
+}
+
+.container-bnt button{
+    border: 2px solid var(--cor-titulo);
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000000;
+    width: 150px;
+    height: 30px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cor-titulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 2px solid var(--cor-titulo);
+   transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0 6% 0 1%;
+    margin-top: 2px ;
+    background: transparent;
+    color: var(--cor-principal);
+}
+
+.rodape h3{
+    font-size: 1rem;
+    width: auto;
+}
+
+.icons ion-icon{
+    width: 2.5rem;
+    height: 1.375rem;
+    align-items: last baseline;
+    color: var(--cor-titulo);
+    padding: auto;
+}
+
+.icons ion-icon:hover{
+    color: var(--cor-segundaria);
 }
 
 
