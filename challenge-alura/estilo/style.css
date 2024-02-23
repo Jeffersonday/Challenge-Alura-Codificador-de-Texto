@@ -150,7 +150,7 @@ textarea::placeholder {
     color: var(--cor-segundaria);
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
 }
 
