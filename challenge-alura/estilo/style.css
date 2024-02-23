@@ -75,12 +75,6 @@ textarea::placeholder {
 
 }
 
-#output h2{
-    text-align: center;
-    font-size: 1.563rem;
-    color: var(--cor-titulo);
-}
-
 #output span{
     font-size: 1rem;
     text-align: center;
@@ -134,7 +128,7 @@ textarea::placeholder {
     color: var(--cor-principal);
 }
 
-.rodape h3{
+.rodape h2{
     font-size: 1rem;
     width: auto;
 }
