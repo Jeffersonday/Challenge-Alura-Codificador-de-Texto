@@ -15,7 +15,7 @@
 
 .cabecalho{
     display: flex;
-    justify-content: left;
+    justify-content: space-between ;
     padding: 2%;
 }
 
