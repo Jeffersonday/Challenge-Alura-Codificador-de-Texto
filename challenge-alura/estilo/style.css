@@ -155,7 +155,7 @@ textarea::placeholder {
     
     .cabecalho{
         display: flex;
-        justify-content: end;
+        justify-content: left;
         padding: 3%;
     }
 
