@@ -162,6 +162,8 @@ textarea::placeholder {
     padding: 0 13% 0 0;
     width: auto;
 
+ }
+
    #input-texto{
       width: 200px;
       height: 330px;
