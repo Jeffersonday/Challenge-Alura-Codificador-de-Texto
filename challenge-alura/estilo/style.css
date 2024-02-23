@@ -16,12 +16,12 @@
 .cabecalho{
     display: flex;
     justify-content: left;
-/*     padding: 2%; */
+    padding: 2%;
 }
 
 .cabecalho h1{
     background: transparent;
-    padding: 0 2%;
+/*     padding: 0 2%; */
     width: auto;
     font-size: 20px;
 }
